@@ -4,6 +4,8 @@ This is an example project that shows you how you can use [Netlify Functions](ht
 
 To keep things simple, this example uses [Nodemailer](https://nodemailer.com/) with [Ethereal](https://ethereal.email/), which means the emails are caught and not actually sent. You are welcome to drop in your favorite email service, like [SendGrid](https://sendgrid.com/) or [Mailgun](https://www.mailgun.com/) as a replacement.
 
+[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/seancdavis/netlify-functions-send-email)
+
 ## Using this Project
 
 Since this is part of the larger monorepo and you probably don't want to clone the whole thing, my suggestion to you is to look at the function (`netlify/functions/send-email.js`) and use that as a starting point in your own project.
